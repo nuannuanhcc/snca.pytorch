@@ -114,3 +114,11 @@ venv.bak/
 # mypy
 .mypy_cache/
 >>>>>>> origin/master
+
+\.idea/modules\.xml
+
+\.idea/snca\.pytorch\.iml
+
+\.idea/vcs\.xml
+
+\.idea/workspace\.xml

@@ -1,0 +1,1 @@
+python cifar.py --temperature 0.05 --lr 0.1

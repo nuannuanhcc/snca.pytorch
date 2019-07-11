@@ -16,7 +16,7 @@ class NCACrossEntropy(nn.Module):
         self.labels = labels
         self.margin = margin
 
-    def forward(self, x, indexes):
+    def forward(self, x, indexes): # x is the cos similarity
         batchSize = x.size(0)
         n = x.size(1)
         exp = torch.exp(x)
